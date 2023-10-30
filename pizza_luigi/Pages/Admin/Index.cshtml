@@ -1,0 +1,19 @@
+﻿@page
+@model pizza_luigi.Pages.Admin.IndexModel
+@{  
+
+}
+
+<h1 class="mb-3">Vous devez vous authentifier</h1>
+@if (Model.displayErrorMsg)
+{
+    
+    <div class="alert-danger p-2 rounded mb-3"> <p>Erreur : l'identifiant / mot de passe ne correspondent pas !</p></div>
+}
+<form method="post">
+    <div class="d-flex flex-column gap-3 align-items-center col-md-4">
+        <input class="form-control" type="text" name="username" placeholder="Login">
+        <input class="form-control" type="password" name="password" placeholder="Mot de passe">
+        <button class="btn btn-primary">Se connecter</button>
+    </div>
+</form>

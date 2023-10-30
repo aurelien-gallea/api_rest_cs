@@ -22,9 +22,9 @@ namespace pizza_luigi.Pages
 
         public void OnGet()
         {
-            var pizza = new Pizza() { Nom="Pizza Test", Prix = 5 };
-            dataContext.Add(pizza);
-            dataContext.SaveChanges();
+            //var pizza = new Pizza() { Nom="Pizza Test", Prix = 5 };
+            //dataContext.Add(pizza);
+            //dataContext.SaveChanges();
         }
     }
 }
