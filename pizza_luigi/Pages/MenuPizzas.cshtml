@@ -1,0 +1,45 @@
+﻿@page
+@model pizza_luigi.Pages.MenuPizzasModel
+@{
+    string vege = "végétarienne";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/style.css" />
+    <title>Menu des pizzas</title>
+</head>
+<body>
+    <a asp-page="Index">
+        <img id="small-logo" src="/images/small_logo.png" />
+    </a>
+    <div class="menu-title">
+
+        <h1>Les Pizzas</h1>
+    </div>
+
+    <ul>
+        @foreach (var pizza in Model.Pizza)
+        {
+            <li class="pizza-container">
+                <div>
+
+                <span class="pizza-name">@pizza.Nom</span>
+                <span class="pizza-price">@pizza.Prix.ToString("F2") €</span>
+                </div>
+                <span class="pizza-desc">@pizza.Ingredients</span>
+                @if(pizza.Vegan)
+                {
+                    <div>
+
+                    <span class="vege-badge">@vege.ToUpper()</span>
+                    </div>
+                }
+            </li>
+        }
+    </ul>
+
+    <a asp-page="Index">Retour à l'accueil</a>
+</body>
+</html>
+

@@ -1,0 +1,64 @@
+﻿body {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/menu_background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Arial;
+    margin: 0;
+    box-sizing: border-box;
+    /*background-attachment:scroll;*/
+}
+
+
+#small-logo {
+    margin: 25px 0 0 35px;
+}
+
+h1 {
+    color: white;
+    background: #DD7835;
+    display: inline-block;
+    padding : 8px 22px;
+}
+
+.menu-title {
+    margin: 20px 0;
+}
+
+.pizza-name {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pizza-price {
+    color: #DD7835;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.pizza-desc {
+    display: block;
+    color: gray;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 3px;
+    max-width:320px;
+}
+
+.pizza-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.vege-badge {
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 9px;
+    background: #DD7835;
+    padding: 0.3rem 0.5rem;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+}
