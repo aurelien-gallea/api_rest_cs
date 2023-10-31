@@ -6,17 +6,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PizzaLuigi</title>
+    <title>PizzaMama</title>
+    <link rel="stylesheet" href="~/css/home.css" />
 </head>
 <body>
+    <div id="main-container">
 
-    <div class="text-center">
-        <h1 class="display-4">PizzaLuigi Accueil</h1>
-        <p><a asp-page="MenuPizzas">Voir le menu des pizzas</a></p>
-
-
+        <img id="main-logo" src="/images/main_logo.png" alt="logo pizza mama" />
+        <div class="text-center">
+            
+            <p><a id="link-menu" asp-page="MenuPizzas">Voir le menu</a></p>
+        </div>
     </div>
-
 </body>
 </html>
 

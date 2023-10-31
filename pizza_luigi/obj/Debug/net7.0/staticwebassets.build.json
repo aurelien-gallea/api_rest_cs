@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/8kyU7Z7kktXMstwkc2ZvMj/AChxqxyL/3mZc0fd/zM=",
+  "Hash": "2iWBkyr5kokDm6CHhZ6zLdxz1RDiNGT9eSsGNrlLohA=",
   "Source": "pizza_luigi",
   "BasePath": "_content/pizza_luigi",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\a.gallea\\source\\repos\\pizza_luigi\\pizza_luigi\\wwwroot\\css\\home.css",
+      "SourceId": "pizza_luigi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\a.gallea\\source\\repos\\pizza_luigi\\pizza_luigi\\wwwroot\\",
+      "BasePath": "_content/pizza_luigi",
+      "RelativePath": "css/home.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home.css"
+    },
     {
       "Identity": "C:\\Users\\a.gallea\\source\\repos\\pizza_luigi\\pizza_luigi\\wwwroot\\css\\site.css",
       "SourceId": "pizza_luigi",
